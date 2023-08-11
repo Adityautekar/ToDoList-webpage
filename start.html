@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="start.css">
+</head>
+<body>
+    <div>
+        <h2>Goal Manager</h2>
+        
+        <div id="bg-container">
+        <div id="container_1">
+            <p>ADD YOUR GOALS<img src="icon.png" alt="image"></p>
+            <div id="date-time">
+                <div class="display-date">
+                    <span id="day">day</span>,
+                    <span id="daynum">00</span>
+                    <span id="month">month</span>
+                    <span id="year">0000</span>
+                </div>
+                <div class="display-time"></div>
+            </div>
+            <div class="todo">
+                <input id ="task1" type="text" placeholder="goal">
+                <button onclick = "addtask()" id="add">Add</button>
+            </div>
+            <ul id="goalslist">
+                
+            </ul>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <p>© adityautekar, 2023</p>
+    </footer>
+    <div class="strip"></div> 
+    <script src="index.js"></script>
+</body>
+
+
+</html>
